@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MasterDetailTest</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MasterDetailTests</value>
+    </caseValues>
+    <fields>
+        <label><!-- lookuptestfield --></label>
+        <name>lookuptestfield__c</name>
+        <relationshipLabel><!-- MasterDetailTests (lookuptestfield) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MasterDetailchild --></label>
+        <name>masterDetailId__c</name>
+        <relationshipLabel><!-- MasterDetailTests --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

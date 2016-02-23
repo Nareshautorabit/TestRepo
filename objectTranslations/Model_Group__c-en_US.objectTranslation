@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Model Group</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Model Groups</value>
+    </caseValues>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Group Model Image --></label>
+        <name>Default_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Model Material Classification --></label>
+        <name>Default_Model_Material_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Model --></label>
+        <name>Default_Model__c</name>
+        <relationshipLabel><!-- Model Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Equipment Category Code --></label>
+        <name>Equipment_Category_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equipment Category Name --></label>
+        <name>Equipment_Category_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equipment Category --></label>
+        <name>Equipment_Category__c</name>
+        <relationshipLabel><!-- Model Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Model Name --></label>
+        <name>Equipment__c</name>
+        <relationshipLabel><!-- Model Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Group Description --></label>
+        <name>Group_Description__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

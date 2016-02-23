@@ -1,0 +1,1 @@
+trigger contactTrigger on Contact (before insert) { for(Contact acc:Trigger.new){ acc.email = 'naresh.v@autorabit.com'; } }

@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>testClass</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>contactTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>Internal Zone</members>
+        <name>Community</name>
+    </types>
+    <types>
+        <members>standard__AppLauncher</members>
+        <members>standard__Chatter</members>
+        <members>standard__Community</members>
+        <members>standard__Content</members>
+        <members>standard__Marketing</members>
+        <members>standard__Platform</members>
+        <members>standard__Sales</members>
+        <members>standard__Service</members>
+        <members>standard__ServiceConsole</members>
+        <members>standard__Sites</members>
+        <members>standard__Work</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Account.AMS_Company_ID__c</members>
+        <members>Account.Active__c</members>
+        <members>Account.AutorabitExtId__c</members>
+        <members>Account.Contactnew__c</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.NumberofLocations__c</members>
+        <members>Account.SLAExpirationDate__c</members>
+        <members>Account.SLASerialNumber__c</members>
+        <members>Account.SLA__c</members>
+        <members>Account.UpsellOpportunity__c</members>
+        <members>Account.abcc__c</members>
+        <members>Account.hello__c</members>
+        <members>Account.newExtIdforAcc__c</members>
+        <members>Account.reqText__c</members>
+        <members>Account.rvrevrev__c</members>
+        <members>Articles_with_files__kav.UploadAttachment__c</members>
+        <members>Case.AMS_Company_ID__c</members>
+        <members>Case.AccTransferingID__c</members>
+        <members>Case.CSI_Historical_Case_ID__c</members>
+        <members>Case.EngineeringReqNumber__c</members>
+        <members>Case.PotentialLiability__c</members>
+        <members>Case.Product__c</members>
+        <members>Case.SLAViolation__c</members>
+        <members>Case.caseextid__c</members>
+        <members>Case.ecfvbty123__c</members>
+        <members>Case.exterforcase__c</members>
+        <members>Case.newExtIdforAcc__c</members>
+        <members>Case.newaccextid__c</members>
+        <members>Child1__c.Parent1ID__c</members>
+        <members>Circularref1__c.Circularref2Master__c</members>
+        <members>Circularref1__c.Circularref2__c</members>
+        <members>Circularref1__c.User__c</members>
+        <members>Circularref2__c.Circularref1__c</members>
+        <members>Contact.AMS_Company_ID__c</members>
+        <members>Contact.AccTransferingID__c</members>
+        <members>Contact.AutorabitExtId__c</members>
+        <members>Contact.Languages__c</members>
+        <members>Contact.Level__c</members>
+        <members>Contact.caseextid__c</members>
+        <members>Contact.ecfvbty123__c</members>
+        <members>Contact.exterforcase__c</members>
+        <members>Contact.newExtIdforAcc__c</members>
+        <members>Contact.newaccextid__c</members>
+        <members>Contact.rvrevrev__c</members>
+        <members>Contract.AMS_Company_ID__c</members>
+        <members>Contract.AccTransferingID__c</members>
+        <members>Contract.caseextid__c</members>
+        <members>Equipment_Category__c.AutorabitExtId__c</members>
+        <members>Equipment_Category__c.Category_Code__c</members>
+        <members>Equipment_Category__c.Category_Description__c</members>
+        <members>Equipment_Image__c.AutorabitExtId__c</members>
+        <members>Equipment_Image__c.Display_Image__c</members>
+        <members>Equipment_Image__c.Image_Brand__c</members>
+        <members>Equipment_Image__c.Image_Description__c</members>
+        <members>Equipment_Image__c.Image_Type__c</members>
+        <members>Equipment_Image__c.Model_Number__c</members>
+        <members>Equipment__c.AutorabitExtId__c</members>
+        <members>Equipment__c.BASIS_Model__c</members>
+        <members>Equipment__c.Bottle_Capacity__c</members>
+        <members>Equipment__c.Can_Capacity__c</members>
+        <members>Equipment__c.CapGemini_Model__c</members>
+        <members>Equipment__c.Default_Image__c</members>
+        <members>Equipment__c.Depth__c</members>
+        <members>Equipment__c.Equipment_Category_Name__c</members>
+        <members>Equipment__c.Equipment_Category__c</members>
+        <members>Equipment__c.Equipment_Order_Type__c</members>
+        <members>Equipment__c.Height__c</members>
+        <members>Equipment__c.Ice_Capacity__c</members>
+        <members>Equipment__c.Largest_Model_Dimension__c</members>
+        <members>Equipment__c.Manufacturer__c</members>
+        <members>Equipment__c.Material_Classification__c</members>
+        <members>Equipment__c.Material_Description__c</members>
+        <members>Equipment__c.Material_Number__c</members>
+        <members>Equipment__c.Model_Dimension__c</members>
+        <members>Equipment__c.Model_Group__c</members>
+        <members>Equipment__c.Model_Number__c</members>
+        <members>Equipment__c.Number_of_Facings__c</members>
+        <members>Equipment__c.Number_of_Rows__c</members>
+        <members>Equipment__c.TBSA_Authorized__c</members>
+        <members>Equipment__c.Valve__c</members>
+        <members>Equipment__c.Width__c</members>
+        <members>Goal.OrigGoalId__c</members>
+        <members>Invoice__c.Account__c</members>
+        <members>Invoice__c.Invoice_Total__c</members>
+        <members>Invoice__c.Status__c</members>
+        <members>JObject__c.Account__c</members>
+        <members>JObject__c.Merchandise__c</members>
+        <members>JObject__c.abcc__c</members>
+        <members>JObject__c.hello__c</members>
+        <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.NumberofLocations__c</members>
+        <members>Lead.Primary__c</members>
+        <members>Lead.ProductInterest__c</members>
+        <members>Lead.SICCode__c</members>
+        <members>Line_Item__c.Invoice__c</members>
+        <members>Line_Item__c.Line_Item_Total__c</members>
+        <members>Line_Item__c.Merchandise__c</members>
+        <members>Line_Item__c.Quantity__c</members>
+        <members>Line_Item__c.Unit_Price__c</members>
+        <members>Line_Item__c.Warehouse_Name__c</members>
+        <members>Line_Item__c.Warehouse__c</members>
+        <members>LookupParent2__c.AutorabitExtId__c</members>
+        <members>LookupParent3__c.AutorabitExtId__c</members>
+        <members>LookupTest2__c.LookupParentId__c</members>
+        <members>LookupTest2__c.LookupTestId__c</members>
+        <members>LookupTest__c.AttachmentId__c</members>
+        <members>LookupTest__c.AutorabitExtId__c</members>
+        <members>LookupTest__c.LookupParent2id__c</members>
+        <members>LookupTest__c.LookupParent3id__c</members>
+        <members>LookupTest__c.lookupTestId__c</members>
+        <members>MasterDetailTest__c.lookuptestfield__c</members>
+        <members>MasterDetailTest__c.masterDetailId__c</members>
+        <members>Merchandise__c.Condition__c</members>
+        <members>Merchandise__c.Price__c</members>
+        <members>Merchandise__c.Quantity__c</members>
+        <members>Merchandise__c.Warehouse__c</members>
+        <members>Merchandise__c.abcc__c</members>
+        <members>Merchandise__c.hello__c</members>
+        <members>Metric.OrigMetricId__c</members>
+        <members>Model_Group__c.AutorabitExtId__c</members>
+        <members>Model_Group__c.Default_Image__c</members>
+        <members>Model_Group__c.Default_Model_Material_Classification__c</members>
+        <members>Model_Group__c.Default_Model__c</members>
+        <members>Model_Group__c.Equipment_Category_Code__c</members>
+        <members>Model_Group__c.Equipment_Category_Name__c</members>
+        <members>Model_Group__c.Equipment_Category__c</members>
+        <members>Model_Group__c.Equipment__c</members>
+        <members>Model_Group__c.Group_Description__c</members>
+        <members>Opportunity.AMS_Company_ID__c</members>
+        <members>Opportunity.AccTransferingID__c</members>
+        <members>Opportunity.CurrentGenerators__c</members>
+        <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.MainCompetitors__c</members>
+        <members>Opportunity.OrderNumber__c</members>
+        <members>Opportunity.TrackingNumber__c</members>
+        <members>Opportunity.caseextid__c</members>
+        <members>Opportunity.infoExId__c</members>
+        <members>Opportunity.newExtIdforAcc__c</members>
+        <members>Opportunity.newaccextid__c</members>
+        <members>SelfRefTest__c.AccountId__c</members>
+        <members>SelfRefTest__c.selfRefId__c</members>
+        <members>TestArticle__kav.Article_area__c</members>
+        <members>Warehouse__c.City__c</members>
+        <members>Warehouse__c.Location__c</members>
+        <members>Warehouse__c.Phone__c</members>
+        <members>Warehouse__c.Street_Address__c</members>
+        <members>Warehouse__c.abcc__c</members>
+        <members>Warehouse__c.hello__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>AccountCleanInfo</members>
+        <members>AccountContactRole</members>
+        <members>Activity</members>
+        <members>Articles_with_files__kav</members>
+        <members>Asset</members>
+        <members>AssistantProgress</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
+        <members>Case</members>
+        <members>CaseContactRole</members>
+        <members>Child1__c</members>
+        <members>Circularref1__c</members>
+        <members>Circularref2__c</members>
+        <members>Contact</members>
+        <members>ContactCleanInfo</members>
+        <members>ContentVersion</members>
+        <members>Contract</members>
+        <members>ContractContactRole</members>
+        <members>DandBCompany</members>
+        <members>Document__kav</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
+        <members>Equipment_Category__c</members>
+        <members>Equipment_Image__c</members>
+        <members>Equipment__c</members>
+        <members>Event</members>
+        <members>FS_Installation__c</members>
+        <members>FeedItem</members>
+        <members>ForecastingCategoryMapping</members>
+        <members>Idea</members>
+        <members>Invoice__c</members>
+        <members>JObject__c</members>
+        <members>Lead</members>
+        <members>LeadCleanInfo</members>
+        <members>Line_Item__c</members>
+        <members>LookupParent2__c</members>
+        <members>LookupParent3__c</members>
+        <members>LookupParent__c</members>
+        <members>LookupTest2__c</members>
+        <members>LookupTest__c</members>
+        <members>Macro</members>
+        <members>MacroAction</members>
+        <members>MacroInstruction</members>
+        <members>MasterDetailTest__c</members>
+        <members>MasterDetailchild__c</members>
+        <members>Merchandise__c</members>
+        <members>Model_Group__c</members>
+        <members>Opportunity</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityContactRole</members>
+        <members>OpportunityLineItem</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>Parent1__c</members>
+        <members>PartnerRole</members>
+        <members>Pricebook2</members>
+        <members>PricebookEntry</members>
+        <members>Product2</members>
+        <members>SelfRefTest__c</members>
+        <members>Site</members>
+        <members>Site_Article__kav</members>
+        <members>SocialPersona</members>
+        <members>Solution</members>
+        <members>StreamingChannel</members>
+        <members>Task</members>
+        <members>TestArticle__kav</members>
+        <members>TestingSynch__c</members>
+        <members>User</members>
+        <members>UserProvisioningRequest</members>
+        <members>Warehouse__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Articles_with_files__kav-en_US</members>
+        <members>Child1__c-en_US</members>
+        <members>Circularref1__c-en_US</members>
+        <members>Circularref2__c-en_US</members>
+        <members>Document__kav-en_US</members>
+        <members>Equipment_Category__c-en_US</members>
+        <members>Equipment_Image__c-en_US</members>
+        <members>Equipment__c-en_US</members>
+        <members>FS_Installation__c-en_US</members>
+        <members>Invoice__c-en_US</members>
+        <members>JObject__c-en_US</members>
+        <members>Line_Item__c-en_US</members>
+        <members>LookupParent2__c-en_US</members>
+        <members>LookupParent3__c-en_US</members>
+        <members>LookupParent__c-en_US</members>
+        <members>LookupTest2__c-en_US</members>
+        <members>LookupTest__c-en_US</members>
+        <members>MasterDetailTest__c-en_US</members>
+        <members>MasterDetailchild__c-en_US</members>
+        <members>Merchandise__c-en_US</members>
+        <members>Model_Group__c-en_US</members>
+        <members>Parent1__c-en_US</members>
+        <members>SelfRefTest__c-en_US</members>
+        <members>Site_Article__kav-en_US</members>
+        <members>TestArticle__kav-en_US</members>
+        <members>TestingSynch__c-en_US</members>
+        <members>Warehouse__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Child1__c</members>
+        <members>Circularref1__c</members>
+        <members>Circularref2__c</members>
+        <members>LookupParent2__c</members>
+        <members>LookupParent3__c</members>
+        <members>LookupParent__c</members>
+        <members>LookupTest2__c</members>
+        <members>LookupTest__c</members>
+        <members>MasterDetailTest__c</members>
+        <members>MasterDetailchild__c</members>
+        <members>Parent1__c</members>
+        <members>SelfRefTest__c</members>
+        <members>TestingSynch__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/MarketingProductInquiryResponse</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
+        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <members>unfiled$public/SupportEscalatedCaseNotification</members>
+        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SupportSelfServiceResetPassword</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <name>EscalationRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>TestFlow-1</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>TestFlow</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>DE Default</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>mule</members>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>Articles_with_files__kav-Articles with files Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Case-Case %28Marketing%29 Layout</members>
+        <members>Case-Case %28Sales%29 Layout</members>
+        <members>Case-Case %28Support%29 Layout</members>
+        <members>Case-Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>Child1__c-Child1 Layout</members>
+        <members>Circularref1__c-Circularref1 Layout</members>
+        <members>Circularref2__c-Circularref2 Layout</members>
+        <members>CollaborationGroup-Group Layout</members>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ContentVersion-General</members>
+        <members>Contract-Contract Layout</members>
+        <members>DandBCompany-D%26B Company Layout</members>
+        <members>Document__kav-Document Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>Equipment_Category__c-Equipment Category Layout</members>
+        <members>Equipment_Image__c-Equipment Image Layout</members>
+        <members>Equipment__c-Equipment Layout</members>
+        <members>Event-Event Layout</members>
+        <members>FS_Installation__c-FS_Installation%5F%5Fc Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>Invoice__c-Invoice Layout</members>
+        <members>JObject__c-JObject Layout</members>
+        <members>Lead-Lead %28Marketing%29 Layout</members>
+        <members>Lead-Lead %28Sales%29 Layout</members>
+        <members>Lead-Lead %28Support%29 Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Line_Item__c-Line Item Layout</members>
+        <members>LookupParent2__c-LookupParent2 Layout</members>
+        <members>LookupParent3__c-LookupParent3 Layout</members>
+        <members>LookupParent__c-LookupParent Layout</members>
+        <members>LookupTest2__c-LookupTest2 Layout</members>
+        <members>LookupTest__c-LookupTest Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>MasterDetailTest__c-MasterDetailTest Layout</members>
+        <members>MasterDetailchild__c-MasterDetailchild Layout</members>
+        <members>Merchandise__c-Merchandise Layout</members>
+        <members>Model_Group__c-Model Group Layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>Parent1__c-Parent1 Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>SelfRefTest__c-SelfRefTest Layout</members>
+        <members>Site_Article__kav-Site Atricle Layout</members>
+        <members>SocialPersona-Social Persona Layout</members>
+        <members>SocialPost-Social Post Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Task-Task Layout</members>
+        <members>TestArticle__kav-TestArticle Layout</members>
+        <members>TestingSynch__c-TestingSynch Layout</members>
+        <members>User-User Layout</members>
+        <members>Warehouse__c-Warehouse Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Account.AllAccounts</members>
+        <members>Account.MyAccounts</members>
+        <members>Account.NewLastWeek</members>
+        <members>Account.NewThisWeek</members>
+        <members>Account.PlatinumandGoldSLACustomers</members>
+        <members>Activity.AllActivities</members>
+        <members>Activity.MyActivities</members>
+        <members>Activity.TodaysTasks</members>
+        <members>Activity.UpcomingEvents</members>
+        <members>Asset.AllAssets</members>
+        <members>Campaign.AllActiveCampaigns</members>
+        <members>Campaign.MyActiveCampaigns</members>
+        <members>Case.AllClosedCases</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
+        <members>Child1__c.All</members>
+        <members>Circularref1__c.All</members>
+        <members>Circularref2__c.All</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.MyContacts</members>
+        <members>Contact.NewLastWeek</members>
+        <members>Contact.NewThisWeek</members>
+        <members>Contract.AllActivatedContracts</members>
+        <members>Contract.AllContracts</members>
+        <members>Contract.AllDraftContracts</members>
+        <members>Contract.AllInApprovalContracts</members>
+        <members>Contract.MyActivatedContracts</members>
+        <members>Contract.MyDraftContracts</members>
+        <members>Contract.MyInApprovalContracts</members>
+        <members>Equipment_Category__c.All</members>
+        <members>Equipment_Image__c.All</members>
+        <members>Equipment__c.All</members>
+        <members>Equipment__c.All_Equipment</members>
+        <members>Equipment__c.Allglass</members>
+        <members>Equipment__c.Allnoglassnostack</members>
+        <members>Equipment__c.Allstack</members>
+        <members>Equipment__c.Dimensions</members>
+        <members>Equipment__c.INT_Equipment_Brewed</members>
+        <members>Equipment__c.INT_Equipment_Coolers</members>
+        <members>Equipment__c.INT_Equipment_Dispensed</members>
+        <members>Equipment__c.INT_Equipment_Juice</members>
+        <members>Equipment__c.INT_Equipment_Venders</members>
+        <members>Equipment__c.MyEquipment</members>
+        <members>Equipment__c.Vending_Equipment</members>
+        <members>Equipment__c.small_equipment</members>
+        <members>Idea.Ideas_Last_7_Days</members>
+        <members>Invoice__c.All</members>
+        <members>JObject__c.All</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.MyUnreadLeads</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Lead.ViewCustom1</members>
+        <members>Lead.ViewCustom2</members>
+        <members>Line_Item__c.All</members>
+        <members>LookupParent2__c.All</members>
+        <members>LookupParent3__c.All</members>
+        <members>LookupParent__c.All</members>
+        <members>LookupTest2__c.All</members>
+        <members>LookupTest__c.All</members>
+        <members>MasterDetailTest__c.All</members>
+        <members>MasterDetailchild__c.All</members>
+        <members>Merchandise__c.All</members>
+        <members>Model_Group__c.ALL_Model_Groups</members>
+        <members>Model_Group__c.All</members>
+        <members>Model_Group__c.All1</members>
+        <members>Model_Group__c.All_Models</members>
+        <members>Model_Group__c.DEV_BREWED_Model_Groups</members>
+        <members>Model_Group__c.DEV_DISPENSED_Model_Groups</members>
+        <members>Model_Group__c.DEV_FOUNTAIN_Model_Groups</members>
+        <members>Model_Group__c.DEV_Juicer_Model_Groups</members>
+        <members>Model_Group__c.DEV_VENDER_Model_Groups</members>
+        <members>Model_Group__c.INT_Brewed_Model_Groups</members>
+        <members>Model_Group__c.INT_Cooler_Model_Groups</members>
+        <members>Model_Group__c.INT_Dispensing_Model_Groups</members>
+        <members>Model_Group__c.INT_Fountain_Model_Groups</members>
+        <members>Model_Group__c.INT_Juice_Model_Groups</members>
+        <members>Model_Group__c.INT_Vending_Model_Groups</members>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.ClosingNextMonth</members>
+        <members>Opportunity.ClosingThisMonth</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewLastWeek</members>
+        <members>Opportunity.NewThisWeek</members>
+        <members>Opportunity.Private</members>
+        <members>Opportunity.Won</members>
+        <members>Order.AllActivatedOrders</members>
+        <members>Order.AllDraftOrders</members>
+        <members>Order.AllOrders</members>
+        <members>Parent1__c.All</members>
+        <members>Product2.AllProducts</members>
+        <members>SelfRefTest__c.All</members>
+        <members>Solution.AllReviewedSolutions</members>
+        <members>Solution.AllUnreviewedSolutions</members>
+        <members>TestingSynch__c.All</members>
+        <members>User.ActiveUsers</members>
+        <members>User.AdminUsers</members>
+        <members>User.AllUsers</members>
+        <members>Warehouse__c.All</members>
+        <members>WorkFeedbackRequest.AboutTopics</members>
+        <members>WorkFeedbackRequest.All</members>
+        <members>WorkFeedbackTemplate.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Lead</members>
+        <name>MatchingRules</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>Customer Community Login User</members>
+        <members>Customer Community Plus Login User</members>
+        <members>Customer Community Plus User</members>
+        <members>Customer Community User</members>
+        <members>Customer Portal Manager Custom</members>
+        <members>Customer Portal Manager Standard</members>
+        <members>External Identity User</members>
+        <members>Force%2Ecom - App Subscription User</members>
+        <members>Force%2Ecom - Free User</members>
+        <members>Gold Partner User</members>
+        <members>HighVolumePortal</members>
+        <members>Identity User</members>
+        <members>MarketingProfile</members>
+        <members>Partner App Subscription User</members>
+        <members>Partner Community Login User</members>
+        <members>Partner Community User</members>
+        <members>PlatformPortal</members>
+        <members>ReadOnly</members>
+        <members>Silver Partner User</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <members>Work%2Ecom Only User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Case.NewChildCase</members>
+        <members>CollaborationGroup.NewGroupMember</members>
+        <members>CollaborationGroup.NewGroupRecord</members>
+        <members>FeedItem.NewTaskFromFeedItem</members>
+        <members>LogACall</members>
+        <members>NewAccount</members>
+        <members>NewCase</members>
+        <members>NewContact</members>
+        <members>NewEvent</members>
+        <members>NewGroup</members>
+        <members>NewLead</members>
+        <members>NewNote</members>
+        <members>NewOpportunity</members>
+        <members>NewTask</members>
+        <members>Task.Defer</members>
+        <members>Task.EditDescription</members>
+        <members>Task.UpdatePriority</members>
+        <members>Task.UpdateStatus</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>ApexDevNet</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>CEO</members>
+        <members>CFO</members>
+        <members>COO</members>
+        <members>ChannelSalesTeam</members>
+        <members>CustomerSupportInternational</members>
+        <members>CustomerSupportNorthAmerica</members>
+        <members>DirectorChannelSales</members>
+        <members>DirectorDirectSales</members>
+        <members>EasternSalesTeam</members>
+        <members>InstallationRepairServices</members>
+        <members>MarketingTeam</members>
+        <members>SVPCustomerServiceSupport</members>
+        <members>SVPHumanResources</members>
+        <members>SVPSalesMarketing</members>
+        <members>VPInternationalSales</members>
+        <members>VPMarketing</members>
+        <members>VPNorthAmericanSales</members>
+        <members>WesternSalesTeam</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>Account.TestValidator</members>
+        <members>Line_Item__c.Validate_Quantity</members>
+        <members>Warehouse__c.Warehouse_Name_Length</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Opportunity.DeliveryStatus</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>ChatterAnswers</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LeadConvert</members>
+        <members>LiveAgent</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>PathAssistant</members>
+        <members>PersonalJourney</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+    <version>35.0</version>
+</Package>
