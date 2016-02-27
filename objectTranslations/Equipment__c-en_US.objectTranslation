@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Equipment Material Master</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Equipment</value>
+    </caseValues>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- BASIS Model --></label>
+        <name>BASIS_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bottle Capacity --></label>
+        <name>Bottle_Capacity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Can Capacity --></label>
+        <name>Can_Capacity__c</name>
+    </fields>
+    <fields>
+        <label><!-- CapGemini Model --></label>
+        <name>CapGemini_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Image --></label>
+        <name>Default_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depth --></label>
+        <name>Depth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equipment Category Name --></label>
+        <name>Equipment_Category_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equipment Category --></label>
+        <name>Equipment_Category__c</name>
+        <relationshipLabel><!-- Equipment --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Equipment Order Type --></label>
+        <name>Equipment_Order_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height --></label>
+        <name>Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ice Capacity --></label>
+        <name>Ice_Capacity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Largest Model Dimension --></label>
+        <name>Largest_Model_Dimension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer --></label>
+        <name>Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material Classification --></label>
+        <name>Material_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material Description --></label>
+        <name>Material_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material Number --></label>
+        <name>Material_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model Dimension --></label>
+        <name>Model_Dimension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model Group --></label>
+        <name>Model_Group__c</name>
+        <relationshipLabel><!-- Equipment --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Model Number --></label>
+        <name>Model_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Facings --></label>
+        <name>Number_of_Facings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Rows --></label>
+        <name>Number_of_Rows__c</name>
+    </fields>
+    <fields>
+        <label><!-- TBSA Authorized --></label>
+        <name>TBSA_Authorized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valve --></label>
+        <name>Valve__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width --></label>
+        <name>Width__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LookupTest2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LookupTest2</value>
+    </caseValues>
+    <fields>
+        <label><!-- LookupParentId --></label>
+        <name>LookupParentId__c</name>
+        <relationshipLabel><!-- LookupTest2 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LookupTestId --></label>
+        <name>LookupTestId__c</name>
+        <relationshipLabel><!-- LookupTest2 --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
