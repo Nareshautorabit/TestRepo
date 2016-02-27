@@ -4,4 +4,13 @@
         <members>testClass</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>contactTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
+        <name>AssignmentRule</name>
+    </types>
 </Package>
