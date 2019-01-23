@@ -1,0 +1,17 @@
+{
+    "packageDirectories": [
+        {
+            "path": "hfhf",
+            "default": true,
+            "package": "hfhf",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "44.0",
+    "packageAliases": {
+        "hfhf": "0Ho0o000000fxUWCAY"
+    }
+}
